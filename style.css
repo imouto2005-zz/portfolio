@@ -3,6 +3,11 @@
 	src: url(./fonts/MillennialSolstice.ttf);
 }
 
+@font-face {
+	font-family: "Wild Creatures";
+	src: url(./fonts/WildCreaturesSample.ttf);
+}
+
 body {
 	margin: 0;
 	margin-bottom: 50px;
@@ -10,35 +15,44 @@ body {
 
 .main-header {
 	width: 100%;
-	height: 400px;
+	height: 100vh;
 	text-align: center;
-	background: #FCD4FC;
+	background: url(http://i.imgur.com/YSZYX9O.jpg);
+/*	background: url(http://i.ebayimg.com/images/g/krAAAOSwmfhX40yu/s-l300.jpg);
+*/	background-size: cover;
 	margin: 0;
+	position: static;
 }
 
 h1 {
-	font-family: "Millennial Solstice"
+	font-family: "Millennial Solstice";
 }
 
 h2 {
-	font-family: "Passion One";
-	margin-top: 0
+	font-family: "Unica One";
+	margin: 0;
+	font-size: 30px;
 }
 
 #title {
-	font-family: "Millennial Solstice";
-	font-size: 50px;
-	color: #BFBFBF;
+	font-family: "Wild Creatures";
+	font-size: 200px;
+	color: white;
+/*	text-shadow: 6px 0 0 #DBDBDB, -6px 0 0 #DBDBDB, 0 6px 0 #DBDBDB, 0 -6px 0 #DBDBDB, 6px 6px #DBDBDB, -6px -6px 0 #DBDBDB, 6px -6px 0 #DBDBDB, -6px 6px 0 #DBDBDB;
+*/	top: 30%;
+	position: relative;
 }
 
 .about {
 	width: 1200px;
 	margin: 0 auto;
+	margin-top: 40px;
 }
 
 .projects {
 	width: 1200px;
 	margin: 0 auto;
+	margin-top: 40px;
 }
 
 p {
@@ -80,7 +94,7 @@ img {
 }
 
 .right {
-	width: 600px;
+	width: 620px;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 50px;
