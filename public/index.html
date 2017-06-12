@@ -2,6 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Portfolio</title>
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 	<link href="style.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -14,15 +15,22 @@
  -->	</div>
 
 	<div class="about">
-		<h1>(about me)</h1>
+		<h1 id="about">(about me)</h1>
+		<div class="left-me">
+			<img src="http://i.imgur.com/5qFhg9y.jpg" alt="me" style="width:300px;">
+		</div>
+
+		<div class="right-me">
+		<h2>Hello there, thanks for stopping by!</h2>
 		<p>
-		I am a full stack developer based in Singapore. <br><br>
+		I'm Louisa, a full stack developer based in Singapore. <br><br>
 		People say I’m “kay-poh” but I’m really just curious about the world around me! I love to get my hands dirty building things and I strive to make the internet a more beautiful place with every line of code that I write. 
 		</p>
 		<p>
 			I love music so when I'm not coding, I enjoy playing the piano or luxuriating in my favourite music. I also really enjoy building things, from nanoblocks to mechanical keyboards. I love the level of customization that comes with assembling your own keyboard, as opposed to simply buying one from the store. From the design (I'm always on the lookout for cute and pretty keycaps) to the feel of the switches, I can make sure that each part of the keyboard is exactly to my liking. 
 		</p>
-		<h1 style="margin-top: 50px">(skills)</h1>
+		</div>
+		<h1 id="skills">(skills)</h1>
 
 		<table>
 			<tr>
@@ -49,10 +57,10 @@
 		</table>
 	</div>
 
-	<hr style="width:85%">
+	<hr>
 
 	<div class="projects">
-		<h1>(recent works)</h1>
+		<h1 id="projects">(recent projects)</h1>
 
 	<div class="project-container">
 		<div class="left">
@@ -66,8 +74,8 @@
 		<i class="devicon-css3-plain colored" style="font-size:20px"></i>
 		<i class="devicon-javascript-plain colored" style="font-size:20px"></i>
 		</p>
-		<button onclick="location.href='https://github.com/imouto2005/wdi-project-1-imouto2005'">Github</button>
-		<button onclick="location.href='https://imouto2005.github.io/wdi-project-1-imouto2005/'">Live</button>
+		<button id="github" onclick="location.href='https://github.com/imouto2005/wdi-project-1-imouto2005'">Github</button>
+		<button id="live" onclick="location.href='https://imouto2005.github.io/wdi-project-1-imouto2005/'">Live</button>
 		</div>
 	</div>
 
@@ -85,8 +93,8 @@
 		<i class="devicon-nodejs-plain colored" style="font-size:20px"></i>
 		<i class="devicon-mongodb-plain colored" style="font-size:20px"></i>
 		</p>
-		<button onclick="location.href='https://github.com/imouto2005/wdi-project-2'">Github</button>
-		<button onclick="location.href='https://wdi-project-2-imouto2005.herokuapp.com/'">Live</button>
+		<button id="github" onclick="location.href='https://github.com/imouto2005/wdi-project-2'">Github</button>
+		<button id="live" onclick="location.href='https://wdi-project-2-imouto2005.herokuapp.com/'">Live</button>
 		</div>
 	</div>
 
@@ -106,8 +114,8 @@
 		<i class="devicon-rails-plain colored" style="font-size:20px"></i>
 		<i class="devicon-ruby-plain colored" style="font-size:20px"></i>
 		</p>
-		<button onclick="location.href='https://github.com/wdi-sg/wdi-project-3-there_is_no_i'">Github</button>
-		<button onclick="location.href='https://locavorusrex.herokuapp.com/'">Live</button>
+		<button id="github" onclick="location.href='https://github.com/wdi-sg/wdi-project-3-there_is_no_i'">Github</button>
+		<button id="live" onclick="location.href='https://locavorusrex.herokuapp.com/'">Live</button>
 		</div>
 	</div>
 
@@ -127,9 +135,28 @@
 		<i class="devicon-rails-plain colored" style="font-size:20px"></i>
 		<i class="devicon-ruby-plain colored" style="font-size:20px"></i>
 		</p>
-		<button onclick="location.href='https://github.com/imouto2005/project-4-react'">Github</button>
-		<button onclick="location.href='http://128.199.214.210/'">Live</button>
+		<button id="github" onclick="location.href='https://github.com/imouto2005/project-4-react'">Github</button>
+		<button id="live" onclick="location.href='http://128.199.214.210/'">Live</button>
 		</div>
+	</div>
+
+	</div>
+
+	<hr>
+
+	<div class="contact">
+		<h1 id="contact">(get in touch)</h1>
+		<p>
+			I would love to hear from you! Please drop me an email at:<br>
+			<a href="mailto:louisa.leeyh@gmail.com" id="email">louisa.leeyh@gmail.com</a> 
+		</p>
+
+		<p>
+			I can also be found at:<br>
+			<a href="https://github.com/imouto2005/"><i class="devicon-github-plain colored"></i></a>
+			
+		</p>
+
 	</div>
 
 

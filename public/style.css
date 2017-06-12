@@ -34,6 +34,10 @@ h2 {
 	font-size: 30px;
 }
 
+hr {
+	width: 90%;
+}
+
 #title {
 	font-family: "Wild Creatures";
 	font-size: 200px;
@@ -49,10 +53,34 @@ h2 {
 	margin-top: 40px;
 }
 
+#about {
+	color: #DCCCFF;
+}
+
+#skills {
+	margin-top: 50px;
+	color: #A7E3FC;
+}
+
 .projects {
 	width: 1200px;
 	margin: 0 auto;
 	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#projects {
+	color: #ffd1dc;
+}
+
+.contact {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#contact {
+	color: #97F0D7;
 }
 
 p {
@@ -87,6 +115,12 @@ i {
 	display: inline-block;
 }
 
+.left-me {
+	width: 300px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
 img {
 	border-radius: 5px;
 	width: 500px;
@@ -100,12 +134,47 @@ img {
 	margin-left: 50px;
 }
 
+.right-me {
+	width: 700px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
 
 button {
 	width: 80px;
 	border-radius: 5px;
 	background: white;
-	border: 1px solid black;
 	outline: none;
+	font-family: "Quicksand";
+	font-size: 15px;
 }
 
+#github {
+	background: #A8E9FF;
+	border: 2px solid #4FB0FF;
+}
+
+#github:hover {
+	background: #26C8FF;
+	color: white;
+}
+
+#live {
+	background: #FFD9FC;
+	border: 2px solid #FCE6FC;
+}
+
+#live:hover {
+	background: #DE64BD;
+	color: white;
+}
+
+#email {
+	color: #779AED;
+}
+
+#email:hover {
+	font-size: 20px;
+}
