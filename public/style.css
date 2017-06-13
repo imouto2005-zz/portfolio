@@ -10,8 +10,8 @@
 
 body {
 	margin: 0;
-	margin-bottom: 50px;
-}
+/*	margin-bottom: 50px;
+*/}
 
 .main-header {
 	width: 100%;
@@ -34,6 +34,12 @@ h2 {
 	font-size: 30px;
 }
 
+h3 {
+	font-family: "Unica One";
+	color: #C9C3D4;
+	font-size: 35px;
+}
+
 hr {
 	width: 90%;
 }
@@ -54,12 +60,13 @@ hr {
 }
 
 #about {
-	color: #DCCCFF;
+	color: #ffd1dc;
 }
 
 #skills {
 	margin-top: 50px;
 	color: #A7E3FC;
+	margin-bottom: 0;
 }
 
 .projects {
@@ -70,7 +77,7 @@ hr {
 }
 
 #projects {
-	color: #ffd1dc;
+	color: #DCCCFF;
 }
 
 .contact {
@@ -116,9 +123,9 @@ i {
 }
 
 .left-me {
-	width: 300px;
+	width: 320px;
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 10px;
 }
 
 img {
@@ -135,7 +142,7 @@ img {
 }
 
 .right-me {
-	width: 700px;
+	width: 785px;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 50px;
@@ -147,13 +154,13 @@ button {
 	border-radius: 5px;
 	background: white;
 	outline: none;
+	border: none;
 	font-family: "Quicksand";
 	font-size: 15px;
 }
 
 #github {
 	background: #A8E9FF;
-	border: 2px solid #4FB0FF;
 }
 
 #github:hover {
@@ -163,7 +170,6 @@ button {
 
 #live {
 	background: #FFD9FC;
-	border: 2px solid #FCE6FC;
 }
 
 #live:hover {
@@ -173,8 +179,42 @@ button {
 
 #email {
 	color: #779AED;
+	text-decoration: none;
 }
 
 #email:hover {
 	font-size: 20px;
+	font-weight: bold;
+}
+
+footer {
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+
+#footer-text {
+	color: #CCCCCC;
+	padding-top: 8px;
+}
+
+#linkedin-logo {
+	color: black;
+	font-size: 20px;
+}
+
+#github-logo {
+	font-size: 18px;
+}
+
+#linkedin-logo:hover {
+	color: #0077B5;
+}
+
+#github-logo:hover {
+	color: #EC6E61;
+}
+
+a {
+	text-decoration: none;
 }
