@@ -14,14 +14,12 @@ body {
 */}
 
 .main-header {
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 	text-align: center;
 	background: url(http://i.imgur.com/YSZYX9O.jpg);
-/*	background: url(http://i.ebayimg.com/images/g/krAAAOSwmfhX40yu/s-l300.jpg);
-*/	background-size: cover;
+	background-size: cover;
 	margin: 0;
-	position: static;
 }
 
 h1 {
@@ -38,6 +36,8 @@ h3 {
 	font-family: "Unica One";
 	color: #C9C3D4;
 	font-size: 35px;
+	top: 10%;
+	position: relative;
 }
 
 hr {
@@ -48,8 +48,7 @@ hr {
 	font-family: "Wild Creatures";
 	font-size: 200px;
 	color: white;
-/*	text-shadow: 6px 0 0 #DBDBDB, -6px 0 0 #DBDBDB, 0 6px 0 #DBDBDB, 0 -6px 0 #DBDBDB, 6px 6px #DBDBDB, -6px -6px 0 #DBDBDB, 6px -6px 0 #DBDBDB, -6px 6px 0 #DBDBDB;
-*/	top: 30%;
+	top: 30%;
 	position: relative;
 }
 
@@ -132,6 +131,10 @@ img {
 	border-radius: 5px;
 	width: 500px;
 	border: 2px solid #D4D4D4;
+}
+
+#me {
+	width: 320px;
 }
 
 .right {
@@ -217,4 +220,49 @@ footer {
 
 a {
 	text-decoration: none;
+}
+
+@media (orientation: portrait) {
+	.main-header {
+		width: 1200px;
+		height: 780px;
+	}
+
+	h3 {
+		top:15%;
+	}
+
+	hr {
+		width: 1200px;
+	}
+
+	.projects, .about, .skills {
+		margin-left: 18px;
+	}
+
+	.right {
+		width: 600px;
+	}
+
+	.right-me {
+		display: block;
+		width: 1000px;
+		margin-top: 20px;
+	}
+
+	.left-me {
+		width: 500px;
+		display: block;
+		margin-left: 25%;
+	}
+
+	#me {
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	#footer-text {
+		text-align: center;
+	}
+
 }
